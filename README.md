@@ -9,7 +9,7 @@ Due: Before class, Tuesday, February 16th, 2016.
 1. The first step is to get a working copy of this repository. This breaks down into two smaller steps: forking and then cloning the repository. If your browser is pointed at https://github.com/brianhill/cs190-ps1, and you are logged in using your github account, you will see a fork button near the upper-right-hand corner of the web page. Just click it to create the fork. Then, to create the clone, open a shell (the app is called Terminal.app). If you have never worked in a shell, don't worry, below are the commands step by step. The stuff you type is the stuff following each $ sign:
     ```
     ~$ mkdir ~/Classwork
-   ~$ cd ~/Classwork
+    ~$ cd ~/Classwork
     ~/Classwork$ git clone https://github.com/<your_github_username_goes_here>/cs190-ps1
     Cloning into 'cs190-ps1'...
     remote: Counting objects: 10, done.
