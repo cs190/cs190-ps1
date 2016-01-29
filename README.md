@@ -1,4 +1,4 @@
-CS 190 Problem Set #1 -- Drawing a 15-Digit Display
+ CS 190 Problem Set #1 -- Drawing a 15-Digit Display
 =======
 # CS 190 Problem Set #1&mdash;Drawing a 15-Digit Display
 
