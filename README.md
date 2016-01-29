@@ -7,6 +7,7 @@ Due: Before class, Tuesday, February 16th, 2016.
 ## Directions Specific to this Problem Set
 
 1. The first step is to get a working copy of this repository. This breaks down into two smaller steps: forking and then cloning the repository. If your browser is pointed at https://github.com/brianhill/cs190-ps1, and you are logged in using your github account, you will see a fork button near the upper-right-hand corner of the web page. Just click it to create your fork. Then, to create the clone, open a shell (using the app called Terminal.app). If you have never worked in a shell, don't worry, below are the commands step by step. The stuff you type is the stuff following each $ sign:
+
     ```
     ~$ mkdir ~/Classwork
     ~$ cd ~/Classwork
@@ -20,11 +21,13 @@ Due: Before class, Tuesday, February 16th, 2016.
     ~/Classwork$ cd cs190-ps1/
     ~/Classwork/cs190-ps1 $ open *.xcodeproj
     ```
+
 The Xcode app will launch and you'll use Xcode to do the next three steps.
 2. Fix the view constraints.
 3. Divide up the view into 15 parts and loop so that a digit is drawn in each part.
 4. Whatever.
 5. Commit your changes to your fork of the repository. You are going to use the shell again. There are three smallish steps to getting your changes committed. First, you need to "add" the changes you made in Xcode to the local repository. This makes your local repository aware of the changes. Once all the changes have been added, then you commit the changes. Finally you "push" the changes to your fork on GitHub. Below are the commands step by step. The stuff you type is the stuff following each $ sign:
+
     ```
     ~$ cd ~/Classwork/cs190-ps1
     ~/Classwork/cs190-ps1$ git status
@@ -57,6 +60,7 @@ The Xcode app will launch and you'll use Xcode to do the next three steps.
     ~/Classwork/cs190-ps1$ cd ~
     ~/Classwork$ rm -rf Classwork 
     ```
+
 Note that on the last line, I have boldly gone ahead and deleted the directory I did all the work in. There is no reason to keep it around once the changes have been successfully pushed to GitHub.
 
 ## General Directions for all Problem Sets
