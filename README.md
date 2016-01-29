@@ -1,5 +1,3 @@
- CS 190 Problem Set #1 -- Drawing a 15-Digit Display
-=======
 # CS 190 Problem Set #1&mdash;Drawing a 15-Digit Display
 
 Course Home Page: http://physics.stmarys-ca.edu/classes/CS190_S16/index.html
@@ -23,6 +21,57 @@ Checking connectivity... done.
 ~/Classwork/cs190-ps1 $ open *.xcodeproj
 ```
 2. The rain in Spain.
+3. Commit your changes to your fork of the repository.
+```
+~$ mkdir ~/Classwork
+~$ cd ~/Classwork
+~/Classwork$ git clone https://github.com/<your_github_username_goes_here>/cs190-ps1
+Cloning into 'cs190-ps1'...
+remote: Counting objects: 10, done.
+remote: Compressing objects: 100% (8/8), done.
+remote: Total 10 (delta 2), reused 10 (delta 2), pack-reused 0
+Unpacking objects: 100% (10/10), done.
+Checking connectivity... done.
+~/Classwork$ cd cs190-ps1/
+~/Classwork/cs190-ps1 $ open *.xcodeproj
+```
+
+
+6. Commit your changes to your fork of the repository. You are going to use the shell again. There are three smallish steps to getting your changes committed. First, you need to "add" the changes you made in Xcode to the local repository. This makes your local repository aware of the changes. Once all the changes have been added, then you commit the changes. Finally you "push" the changes to your fork on GitHub. Below are the commands step by step. The stuff you type is the stuff following each $ sign:
+
+```
+~$ cd ~/Classwork/cs190-ps1
+~/Classwork/cs190-ps1$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+~/Classwork/cs190-ps1 $ git add README.md
+~/Classwork/cs190-ps1$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working directory clean
+~/Classwork/cs190-ps1$ git commit -m 
+[master 7a4d647] BBBB "My solution to Problem Set #1."
+ Committer: Brian Hill <brian@torch.gateway.sonic.net>
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+~/Classwork/cs190-ps1$ git push origin master
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 310 bytes | 0 bytes/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+To https://github.com/brh3/cs190-ps1
+   96f4dda..7a4d647  master -> master
+~/Classwork/cs190-ps1$ cd ~
+~/Classwork$ rm -rf Classwork
+```
+Note that in the last step, I have boldly gone ahead and deleted the directory you did all the work in. There is no reason to keep it around once you have successfully pushed your changes to your fork on GitHub.
 
 ## General Directions for all Problem Sets
 
