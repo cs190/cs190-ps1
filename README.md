@@ -56,7 +56,7 @@ Due: Before class, Tuesday, February 16th, 2016.
     ~/Classwork/cs190-ps1$ cd ~
     ~/Classwork$ rm -rf Classwork 
     ```
-Note that in the last step, I have boldly gone ahead and deleted the directory I did all the work in. There is no reason to keep it around once the changes have been successfully pushed to GitHub.
+Note that on the last line, I have boldly gone ahead and deleted the directory I did all the work in. There is no reason to keep it around once the changes have been successfully pushed to GitHub.
 
 ## General Directions for all Problem Sets
 
