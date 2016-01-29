@@ -20,6 +20,7 @@ Due: Before class, Tuesday, February 16th, 2016.
     ~/Classwork$ cd cs190-ps1/
     ~/Classwork/cs190-ps1 $ open *.xcodeproj
     ```
+The Xcode app will launch and you'll use Xcode to do the next three steps.
 2. Fix the view constraints.
 3. Divide up the view into 15 parts and loop so that a digit is drawn in each part.
 4. Whatever.
