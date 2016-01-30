@@ -11,7 +11,8 @@ I will attempt to make each problem set worth about 10 pts and to have about 12 
 * iOS Technology (View Constraints):
  * https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/AutolayoutPG/AnatomyofaConstraint.html.
  * https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/AutolayoutPG/WorkingwithConstraintsinInterfaceBuidler.html.
-* Engineering Practices (Version Control with GitHub)
+* Engineering Practices (Version Control with Git and GitHub)
+ * https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository.
  * https://guides.github.com/activities/hello-world/.
 * Computer Science (Basic features of the Swift language):
  * https://itunes.apple.com/us/book/the-swift-programming-language/id881256329, pp. 23-39 and 95-96.
@@ -92,4 +93,4 @@ I will attempt to make each problem set worth about 10 pts and to have about 12 
 
 5. Commit your changes to your fork of the repository. More detailed directions on this step are also given above.
 
-###### _The contents of this repository is licensed under the_ [Creative Commons Attribution-ShareAlike License](http://creativecommons.org/licenses/by-sa/3.0/).
+###### _The contents of this repository are licensed under the_ [Creative Commons Attribution-ShareAlike License](http://creativecommons.org/licenses/by-sa/3.0/).
