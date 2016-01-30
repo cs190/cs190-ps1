@@ -1,6 +1,6 @@
 # CS 190 Problem Set #1&mdash;Drawing a 15-Digit Display
 
-Course Home Page: http://physics.stmarys-ca.edu/classes/CS190_S16/index.html
+Course Home Page: http://physics.stmarys-ca.edu/classes/CS190_S16/index.html.
 
 Due: Before class, Tuesday, February 16th, 2016. I should be able to make a clone of your fork, and then build and execute it in my environment without modification.
 
@@ -9,12 +9,12 @@ I will attempt to make each problem set worth about 10 pts and to have about 12 
 ## Reading that Might be Helpful for this Problem Set
 
 * iOS Technology (View Constraints):
- * https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/AutolayoutPG/AnatomyofaConstraint.html
- * https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/AutolayoutPG/WorkingwithConstraintsinInterfaceBuidler.html
+ * https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/AutolayoutPG/AnatomyofaConstraint.html.
+ * https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/AutolayoutPG/WorkingwithConstraintsinInterfaceBuidler.html.
 * Engineering Practices (Version Control with GitHub)
- * https://guides.github.com/activities/hello-world/
-* Computer Science (the basic features of the Swift language): pp 23-39 and 95-96 of The Swift Programming Language (Swift 2.1)
- * https://itunes.apple.com/us/book/the-swift-programming-language/id881256329
+ * https://guides.github.com/activities/hello-world/.
+* Computer Science (Basic features of the Swift language):
+ * https://itunes.apple.com/us/book/the-swift-programming-language/id881256329, pp. 23-39 and 95-96.
 
 ## Directions Specific to this Problem Set
 
