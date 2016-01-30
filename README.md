@@ -9,16 +9,16 @@ I will attempt to make each problem set worth about 10 pts and to have about 12 
 ## This week's reading
 
 * iOS Technology (View Constraints):
-** https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/AutolayoutPG/AnatomyofaConstraint.html
-** https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/AutolayoutPG/WorkingwithConstraintsinInterfaceBuidler.html
+ * https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/AutolayoutPG/AnatomyofaConstraint.html
+ * https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/AutolayoutPG/WorkingwithConstraintsinInterfaceBuidler.html
 * Engineering Practices (Version Control with GitHub)
-** https://guides.github.com/activities/hello-world/
+ * https://guides.github.com/activities/hello-world/
 * Computer Science (the basic features of the Swift language): pp 23-39 and 95-96 of The Swift Programming Language (Swift 2.1)
-** https://itunes.apple.com/us/book/the-swift-programming-language/id881256329
+ * https://itunes.apple.com/us/book/the-swift-programming-language/id881256329
 
 ## Directions Specific to this Problem Set
 
-1. (3 pts) The first step is to get a working copy of this repository. This breaks down into two smaller steps: forking and then cloning the repository. If your browser is pointed at https://github.com/brianhill/cs190-ps1, and you are logged in using your github account, you will see a fork button near the upper-right-hand corner of the web page. Just click it to create your fork. Then, to create the clone, open a shell (using the app called Terminal.app). If you have never worked in a shell, don't worry, below are the commands step by step. The stuff you type is the stuff following each $ sign:
+1. (3 pts) The first step is to get a working copy of this repository. This breaks down into two smaller steps: forking and then cloning the repository. If you are logged in using your github account, you will see a fork button near the upper-right-hand corner of the web page. Just click it to create your fork. Your fork is your copy of the repo in GitHub's cloud. Then, to create a clone on your machine, open a shell (using the app called Terminal.app). If you have never worked in a shell, don't worry, below are the commands step by step. The stuff you type is the stuff following each $ sign:
 
     ```
     ~$ mkdir ~/Classwork
@@ -31,20 +31,20 @@ I will attempt to make each problem set worth about 10 pts and to have about 12 
     Unpacking objects: 100% (10/10), done.
     Checking connectivity... done.
     ~/Classwork$ cd cs190-ps1/
-    ~/Classwork/cs190-ps1 $ open *.xcodeproj
+    ~/Classwork/cs190-ps1 $ open Counter.xcodeproj
     ```
 
-2. (2 pts) Execute the program. It is supposed to display the digit 8, but it doesn't. It's pretty hashed up because I have deliberately left a bug in the function called drawSegment. Go to the implmentation of drawSegment in Display.swift and fix it.
+2. (2 pts) If Step 1 went ok, it finished by opening Counter.xcodeproj in Xcode. Execute the program by clicking on the execute arrow near the top of the Xcode window. The app's display is supposed to display the digit 8, but it doesn't. It's pretty hashed up because I have deliberately left a bug in the function called drawSegment. Go to the implmentation of drawSegment in Display.swift and find and fix the bug.
 
-3. (2 pts) In Main.storyboard, the display is represented by a black view that is carelessly placed in the screen. Create the following four constraints that nestle the view across the top of the screen:
+3. (2 pts) In Main.storyboard, the display is represented by a black view that is carelessly placed in the screen. Create the following four constraints that nestle the view nicely across the top of the screen:
  * Leading space to container margin = 0.
  * Trailing space to container margin = 0.
- * Vertical space to top layout guid = 0.
+ * Vertical space to top layout guide = 0.
  * Aspect ratio width:height = 165:20.
 
 4. (3 pts) The implementation of drawRect is incomplete. It needs a loop that will draw the 15 seven-segment components (SSCs). Go to the implementation of drawRect in Display.swift, read the comments I left there, and complete the implementation.
 
-5. As you did in Step 1, you are going to use the shell again. There are three smallish steps to getting your changes committed. First, you need to "add" the changes you made in Xcode to the local repository. This makes your local repository aware of the changes. Once all the changes have been added, then you commit the changes. Finally you "push" the changes to your fork on GitHub. Below are the commands step by step. In the last step, I delete the working directory. The stuff you type is the stuff following each $ sign:
+5. To wrap up, as you did in Step 1, you are going to use the shell again. There are three smallish steps to getting your changes committed. First, you need to "add" the changes you made in Xcode to the local repository. This just makes your local repository aware of the changes. Once all the changes have been added, then you commit the changes. They are still only in your local repository. Finally you "push" the changes to your fork on GitHub. Below are the commands step by step. In the very last step, I boldly delete the working directory on the local machine. Make sure your changes actually got back to GitHub before you do that! The stuff you type in the shell is the stuff following each $ sign:
 
     ```
     ~$ cd ~/Classwork/cs190-ps1
@@ -59,15 +59,13 @@ I will attempt to make each problem set worth about 10 pts and to have about 12 
         modified:   Counter/Display.swift
 
     no changes added to commit (use "git add" and/or "git commit -a")
-~/Classwork/cs190-ps1 $ git add Counter/Base.lproj/Main.storyboard
-~/Classwork/cs190-ps1 $ git add Counter/Display.swift
-
+    ~/Classwork/cs190-ps1 $ git add Counter/Base.lproj/Main.storyboard
+    ~/Classwork/cs190-ps1 $ git add Counter/Display.swift
     ~/Classwork/cs190-ps1$ git status
     On branch master
     Your branch is up-to-date with 'origin/master'.
     nothing to commit, working directory clean
-    ~/Classwork/cs190-ps1$ git commit -m 
-    [master 7a4d647] BBBB "My solution to Problem Set #1."
+    ~/Classwork/cs190-ps1$ git commit -m "My solution to Problem Set #1."
     Committer: Brian Hill <brian@torch.gateway.sonic.net>
     1 file changed, 1 insertion(+), 1 deletion(-)
     ~/Classwork/cs190-ps1$ git push origin master
