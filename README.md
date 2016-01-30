@@ -6,7 +6,7 @@ Due: Before class, Tuesday, February 16th, 2016. I should be able to make a clon
 
 I will attempt to make each problem set worth about 10 pts and to have about 12 of them during the term.
 
-## This week's reading
+## Reading that Might be Helpful for this Problem Set
 
 * iOS Technology (View Constraints):
  * https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/AutolayoutPG/AnatomyofaConstraint.html
@@ -92,4 +92,4 @@ I will attempt to make each problem set worth about 10 pts and to have about 12 
 
 5. Commit your changes to your fork of the repository. More detailed directions on this step are also given above.
 
-#h6 _The contents of this repository is licensed under the_ [Creative Commons Attribution-ShareAlike License](http://creativecommons.org/licenses/by-sa/3.0/).
+###### _The contents of this repository is licensed under the_ [Creative Commons Attribution-ShareAlike License](http://creativecommons.org/licenses/by-sa/3.0/).
