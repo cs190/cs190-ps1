@@ -37,7 +37,7 @@ Due: Before class, Tuesday, February 16th, 2016. I should be able to make a clon
     ~/Classwork/cs190-ps1 $ open Counter.xcodeproj
     ```
 
-    An alternative to the git clone command above that uses ssh instead of https as the protocol for communicating with GitHub is:
+    An alternative to the git clone command above that uses ssh instead of https as the protocol for communicating with GitHub is:
 
     ```
     ~/Classwork$ git clone git@github.com:<your_github_username_goes_here>/cs190-ps1.git
