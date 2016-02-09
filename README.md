@@ -27,7 +27,6 @@ Due: Before class, Tuesday, February 16th, 2016. I should be able to make a clon
     ~$ mkdir ~/Classwork
     ~$ cd ~/Classwork
     ~/Classwork$ git clone https://github.com/<your_github_username_goes_here>/cs190-ps1
-    ~/Classwork$ echo git clone git@github.com:<your_github_username_goes_here>/cs190-ps1.git
     Cloning into 'cs190-ps1'...
     remote: Counting objects: 10, done.
     remote: Compressing objects: 100% (8/8), done.
@@ -38,7 +37,15 @@ Due: Before class, Tuesday, February 16th, 2016. I should be able to make a clon
     ~/Classwork/cs190-ps1 $ open Counter.xcodeproj
     ```
 
-2. (2 pts) If Step 1 went ok, it finished by opening Counter.xcodeproj in Xcode. Execute the program by clicking on the execute arrow near the top of the Xcode window. The app's display is supposed to display the digit 8, but it doesn't. It's pretty hashed up because I have deliberately left a bug in the function called drawSegment. Go to the implmentation of drawSegment in Display.swift and find and fix the bug.
+    An alternative to the git clone command above that uses ssh instead of https as the protocol for communicating with GitHub is:
+
+    ```
+    ~/Classwork$ git clone git@github.com:<your_github_username_goes_here>/cs190-ps1.git
+    ```
+
+    I didn't put the alternative in these cookbook directions even though I use it because it might require you to&mdash;on a one-time basis&mdash;set up ssh keys (which is a pain if you are using shared machines).
+
+2. (2 pts) If Step 1 went ok, it finished by opening Counter.xcodeproj in Xcode. The open command does the exact same thing as would happen if you double-clicked on Counter.xcodeproj in the Finder. Execute the program by clicking on the execute arrow near the top of the Xcode window. The app's display is supposed to display the digit 8, but it doesn't. It's pretty hashed up because I have deliberately left a bug in the function called drawSegment. Go to the implementation of drawSegment in Display.swift and find and fix the bug.
 
 3. (2 pts) In Main.storyboard, the display is represented by a black view that is carelessly placed in the screen. Create the following four constraints that nestle the view nicely across the top of the screen:
  * Leading space to container margin = 0.
