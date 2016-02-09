@@ -27,6 +27,7 @@ Due: Before class, Tuesday, February 16th, 2016. I should be able to make a clon
     ~$ mkdir ~/Classwork
     ~$ cd ~/Classwork
     ~/Classwork$ git clone https://github.com/<your_github_username_goes_here>/cs190-ps1
+    ~/Classwork$ echo git clone git@github.com:<your_github_username_goes_here>/cs190-ps1.git
     Cloning into 'cs190-ps1'...
     remote: Counting objects: 10, done.
     remote: Compressing objects: 100% (8/8), done.
