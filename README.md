@@ -10,12 +10,13 @@ I will attempt to make each problem set worth about 10 pts and to have about 12 
 
 * iOS Technology (View Constraints):
  * https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/AutolayoutPG/AnatomyofaConstraint.html.
- * https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/AutolayoutPG/WorkingwithConstraintsinInterfaceBuidler.html.
+ * https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/AutolayoutPG/WorkingwithConstraintsinInterfaceBuidler.html (sic).
 * Engineering Practices (Version Control with Git and GitHub)
- * https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository.
- * https://guides.github.com/activities/hello-world/.
+ * https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository (basics of git)
+ * https://guides.github.com/activities/hello-world/ (basics of GitHub)
+ * http://schacon.github.io/gitbook/1_the_git_object_model.html (Advanced&mdash;Git Internals&mdash;SHAs)
 * Computer Science (Basic features of the Swift language):
- * https://itunes.apple.com/us/book/the-swift-programming-language/id881256329, pp. 23-39 and 95-96.
+ * https://itunes.apple.com/us/book/the-swift-programming-language/id881256329 &mdash; start with the Chapter titled "Language Guide" and stop once you get to the Section titled "Functions".
 
 ## Directions Specific to this Problem Set
 
