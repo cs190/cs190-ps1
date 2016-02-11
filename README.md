@@ -1,8 +1,8 @@
 # CS 190 Problem Set #1&mdash;Drawing a 15-Digit Display
 
-This Repository: https://github.com/brianhill/cs190-ps1
+Course Home Page: http://physics.stmarys-ca.edu/classes/CS190_S16/index.html.
 
-Course Home Page: http://physics.stmarys-ca.edu/classes/CS190_S16/index.html
+My St. Mary's Home Page: http://physics.stmarys-ca.edu/lecturers/brianrhill/index.html.
 
 Due: Before class, Tuesday, February 16th, 2016. I should be able to make a clone of your fork, and then build and execute it in my environment without modification.
 
@@ -16,7 +16,7 @@ Due: Before class, Tuesday, February 16th, 2016. I should be able to make a clon
  * https://guides.github.com/activities/hello-world/ (basics of GitHub)
  * http://schacon.github.io/gitbook/1_the_git_object_model.html (Advanced&mdash;Git Internals&mdash;SHAs)
 * Computer Science (Basic features of the Swift language):
- * https://itunes.apple.com/us/book/the-swift-programming-language/id881256329 &mdash; start with the Chapter titled "Language Guide" and stop once you get to the Section titled "Functions".
+ * https://itunes.apple.com/us/book/the-swift-programming-language/id881256329 &mdash; start with the Chapter titled "Language Guide" and stop once you get to the Section titled "Functions". However, the first of my two Swift cheat sheets (see next link) covers this material.
 * https://github.com/brianhill/swift-cheat-sheets &mdash; work through the first of the two Swift playgrounds
 
 ## Directions Specific to this Problem Set
